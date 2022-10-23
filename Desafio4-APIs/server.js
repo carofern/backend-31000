@@ -15,8 +15,6 @@ app.use('/', express.static( __dirname + '/public' ));
 app.use('/api', rutas);
 
 
-
-
 app.listen(puerto, () => {
     
         console.log(`El servidor está escuchando el puerto: ${puerto}`)
