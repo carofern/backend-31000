@@ -1,0 +1,9 @@
+node_modules/
+mongodb.bat
+run_mariadb.lnk
+config/test1-92098-firebase-adminsdk-hxqeq-ec45ab9039.json
+db/*
+!db
+!db/productos.txt
+!db/productos.txt.bkp
+clearmongo.bat
