@@ -1,0 +1,18 @@
+config:
+  target: "http://127.0.0.1:8080"
+  phases:
+    - duration: 480
+      arrivalRate: 30
+scenarios:
+  - flow:
+      - get:
+          url: "/"
+      - get:
+          url: "/productos"
+      - post:
+          url: "/login"
+          json:
+            email: "eehernandez@gmail.com"
+            password: "1234"
+      - get:
+          url: "/productos"

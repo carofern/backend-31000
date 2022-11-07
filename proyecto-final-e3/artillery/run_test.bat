@@ -1,0 +1,1 @@
+artillery run test.yaml>artillery.txt 
