@@ -1,0 +1,37 @@
+\>npm test
+
+> api_test@1.0.0 test
+> mocha ./test/04-suite/*.test.js
+
+
+
+  Testing product routes
+    - POST /api/product
+      √ Should return 201 (311ms)
+      √ Should return the created product
+    - GET /api/product/:id
+      √ Should return 200 (242ms)
+      √ Should return the created product
+    - DELETE /api/product/:id
+      √ Should return 200 (290ms)
+      √ Should return the deleted product
+    - GET /api/product/:id
+      √ Should return 200 (236ms)
+      √ Should return null id
+
+  Testing user routes
+    - POST /signup
+      √ Should return 201 (507ms)
+    - POST /login
+      √ Should return 200 (395ms)
+    - GET /user
+      √ Should return 200 (236ms)
+      √ Should return logged in user
+    - GET /logout
+      √ Should return 200 (304ms)
+    - GET /user
+      √ Should return 401
+
+
+  14 passing (4s)
+

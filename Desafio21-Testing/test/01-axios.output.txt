@@ -1,0 +1,29 @@
+\test\01-axios>node axios.test.js
+Create test user
+201
+Login
+200 { login: true }
+Add new product
+201 {
+  id: '6341e653fbea4c7978ff7829',
+  title: 'Teclado',
+  price: 209,
+  thumbnail: 'https://loremflickr.com/640/480/cats'
+}
+Get product info
+200 {
+  id: '6341e653fbea4c7978ff7829',
+  title: 'Teclado',
+  price: 209,
+  thumbnail: 'https://loremflickr.com/640/480/cats'
+}
+Delete product
+200 {
+  title: 'Teclado',
+  price: 209,
+  thumbnail: 'https://loremflickr.com/640/480/cats',
+  id: '6341e653fbea4c7978ff7829'
+}
+Get deleted product info
+200 { id: null }
+

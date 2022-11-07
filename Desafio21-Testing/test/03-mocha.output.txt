@@ -1,0 +1,25 @@
+\test\03-mocha>npm test
+
+> 03-mocha@1.0.0 test
+> mocha ./mocha.test.js
+
+
+
+  Testing product routes
+    - POST /api/product
+      √ Should return 201 (306ms)
+      √ Should return the created product
+    - GET /api/product/:id
+      √ Should return 200 (240ms)
+      √ Should return the created product
+    - DELETE /api/product/:id
+      √ Should return 200 (290ms)
+      √ Should return the deleted product
+    - GET /api/product/:id
+      √ Should return 200 (229ms)
+      √ Should return null id
+
+
+  8 passing (2s)
+  
+ 

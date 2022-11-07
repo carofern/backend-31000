@@ -1,0 +1,15 @@
+\test\02-http>node http.test.js
+Create test user {"username":"Lonny10","password":"T7PKcD2_5mEUJXp"}
+201
+Login {"username":"Lonny10","password":"T7PKcD2_5mEUJXp"}
+200 {"login":true}
+Add new product {"title":"Bacon","price":144,"thumbnail":"https://loremflickr.com/640/480/cats"}
+201 {"id":"6341e974fbea4c7978ff783a","title":"Bacon","price":144,"thumbnail":"https://loremflickr.com/640/480/cats"}
+Get product info  6341e974fbea4c7978ff783a
+200 {"id":"6341e974fbea4c7978ff783a","title":"Bacon","price":144,"thumbnail":"https://loremflickr.com/640/480/cats"}
+Delete product 6341e974fbea4c7978ff783a
+200 {"title":"Bacon","price":144,"thumbnail":"https://loremflickr.com/640/480/cats","id":"6341e974fbea4c7978ff783a"}
+Get deleted product info 6341e974fbea4c7978ff783a
+200 {"id":null}
+
+
