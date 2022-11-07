@@ -1,0 +1,3 @@
+node_modules/
+run_mariadb.lnk
+db/ecommerce.sqlite
