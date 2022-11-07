@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "0x src/server.js",
+    "test": "node test/benchmark.js"
+  }
+}

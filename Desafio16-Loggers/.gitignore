@@ -1,0 +1,6 @@
+node_modules/
+.env
+logs/*
+!logs
+report/*
+Clase 32 -  Logs, debug, profiling Parte II.lnk
